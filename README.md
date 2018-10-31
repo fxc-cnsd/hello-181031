@@ -1,4 +1,2 @@
-# hello-181031
-# 2018-10-31
-# second
-# third
+# c++ primer 源代码 以及 c primer plus 源代码
+# 学习c++的各种代码 --20181031
