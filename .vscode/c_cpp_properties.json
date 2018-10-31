@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceRoot}",
+                "C:/APP/LLVM/include",
+                "C:/APP/LLVM/lib/gcc/mingw32/6.3.0/include",
+                "C:/APP/LLVM/lib/gcc/mingw32/6.3.0/include/c++/tr1",
+                "C:/APP/LLVM/lib/gcc/mingw32/6.3.0/include/c++/mingw32",
+                "C:/APP/LLVM/lib/gcc/mingw32/5.3.0/include/c++/backward"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\APP\\LLVM\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+ 
+        }
+    ],
+    "version": 4
+}
