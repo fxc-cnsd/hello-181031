@@ -31,7 +31,7 @@
 
 
 
-//																			  	/*  ch08  ×Ö·ûÊäÈëÊä³öºÍÊäÈëÑéÖ¤ */
+//																			  	/*  ch08  å­—ç¬¦è¾“å…¥è¾“å‡ºå’Œè¾“å…¥éªŒè¯ */
 
 
 /* newguess.c -- an inefficient but improved number-guesser */
@@ -318,7 +318,7 @@
 //}
 
 
-// file_eof.c --open a file and display it						´ò¿ªÒ»¸öÎÄ¼ş£¬ÃÀ×Ì×Ì
+// file_eof.c --open a file and display it						æ‰“å¼€ä¸€ä¸ªæ–‡ä»¶ï¼Œç¾æ»‹æ»‹
 
 //#include <stdio.h>
 //#include <stdlib.h>  // for exit()
@@ -599,7 +599,7 @@
 //}
 
 
-//																			  	/*  ch07  c¿ØÖÆÓï¾ä£º·ÖÖ§ºÍÌø×ª */
+//																			  	/*  ch07  cæ§åˆ¶è¯­å¥ï¼šåˆ†æ”¯å’Œè·³è½¬ */
 
 
 // vowels.c -- uses multiple labels
@@ -1119,13 +1119,13 @@
 //	for (i = 0; i < SIZE; i++)
 //		lcase[i] = 'a' + i;
 //	for (i = 0; i < SIZE; i++)
-//		printf("%c¡­", lcase[i]);
+//		printf("%câ€¦", lcase[i]);
 //	printf("\n");
 //	return 0;
 //}
 
 
-//																			  	/*  ch06  c¿ØÖÆÓï¾ä£ºÑ­»· */
+//																			  	/*  ch06  cæ§åˆ¶è¯­å¥ï¼šå¾ªç¯ */
 
 
 // power.c -- raises numbers to integer powers
@@ -1278,7 +1278,7 @@
 //}
 
 
-// postage.c -- first-class postage rates								¶ººÅ±í´ïÊ½£¬ĞòÁĞµã£¬ÓÒ²àÖµ
+// postage.c -- first-class postage rates								é€—å·è¡¨è¾¾å¼ï¼Œåºåˆ—ç‚¹ï¼Œå³ä¾§å€¼
 //#include <stdio.h>
 //int main(void) {
 //	const int FIRST_OZ = 46; // 2013 rate
@@ -1417,7 +1417,7 @@
 //}
 
 
-// boolean.c -- using a _Bool variable				²¼¶ûÀàĞÍ
+// boolean.c -- using a _Bool variable				å¸ƒå°”ç±»å‹
 //#include <stdio.h>
 //int main(void) {
 //	long num;
@@ -1438,7 +1438,7 @@
 //}
 
 
-// trouble.c -- misuse of =					´íÎóÊµÀı
+// trouble.c -- misuse of =					é”™è¯¯å®ä¾‹
 // will cause infinite loop
 //#include <stdio.h>
 //int main(void) {
@@ -1460,7 +1460,7 @@
 //}
 
 
-// truth.c -- what values are true?				·ÇÁã¼´ÎªÕæ
+// truth.c -- what values are true?				éé›¶å³ä¸ºçœŸ
 //#include <stdio.h>
 //int main(void) {
 //	int n = 3;
@@ -1523,7 +1523,7 @@
 //}
 
 
-//´íÎóÊµÀı
+//é”™è¯¯å®ä¾‹
 /* while1.c -- watch your braces       */
 /* bad coding creates an infinite loop */
 //#include <stdio.h>
@@ -1647,7 +1647,7 @@
 //	return 0;
 //}
 
-//																			  	/*  ch05  ÔËËã·û¡¢±í´ïÊ½ºÍÓï¾ä */
+//																			  	/*  ch05  è¿ç®—ç¬¦ã€è¡¨è¾¾å¼å’Œè¯­å¥ */
 
 
 // running.c -- A useful program for runners
@@ -1730,7 +1730,7 @@
 //	i = fl + 2 * ch;                                    /* line 12 */
 //	fl = 2.0 * ch + i;                                  /* line 13 */
 //	printf("ch = %c, i = %d, fl = %2.2f\n", ch, i, fl); /* line 14 */
-////	ch = 1107;                                          /* line 15 ±àÒë±¨´í*/
+////	ch = 1107;                                          /* line 15 ç¼–è¯‘æŠ¥é”™*/
 //	printf("Now ch = %c\n", ch);                        /* line 16 */
 //	ch = 80.89;                                         /* line 17 */
 //	printf("Now ch = %c\n", ch);                        /* line 18 */
@@ -1739,7 +1739,7 @@
 //}
 
 
-//																				¸±×÷ÓÃ£¬ĞòÁĞµã
+//																				å‰¯ä½œç”¨ï¼Œåºåˆ—ç‚¹
 
 /* addemup.c -- five kinds of statements */
 //#include <stdio.h>
@@ -1852,7 +1852,7 @@
 //}
 
 
-/* divide.c -- divisions we have known */								//Ç÷Áã½Ø¶Ï
+/* divide.c -- divisions we have known */								//è¶‹é›¶æˆªæ–­
 //#include <stdio.h>
 //int main(void) {
 //	printf("integer division:  5/4   is %d \n", 5/4);
@@ -2004,7 +2004,7 @@
 //}
 
 
-//																			  	/*  ch04  ×Ö·û´®ºÍ¸ñÊ½»¯ÊäÈë/Êä³ö */
+//																			  	/*  ch04  å­—ç¬¦ä¸²å’Œæ ¼å¼åŒ–è¾“å…¥/è¾“å‡º */
 /* skiptwo.c -- skips over first two integers of input */
 //#include <stdio.h>
 //int main(void) {
@@ -2259,7 +2259,7 @@
 //	return 0;
 //}
 
-//																¿Õ×Ö·û  '\0'
+//																ç©ºå­—ç¬¦  '\0'
 
 /* talkback.c -- nosy, informative program
 //#include <stdio.h>
@@ -2327,7 +2327,7 @@
 //}
 
 
-//																			  	/*  ch03  »ù±¾Êı¾İÀàĞÍ */
+//																			  	/*  ch03  åŸºæœ¬æ•°æ®ç±»å‹ */
 /* bases.c--prints 100 in decimal, octal, and hex */
 //#include <stdio.h>
 //int main(void) {
@@ -2431,7 +2431,7 @@
 //	printf("me32 = %d\n", me32);
 //	printf("Next, let's not make any assumptions.\n");
 //	printf("Instead, use a \"macro\" from inttypes.h: ");
-//	printf("me32 = %" PRId32 "\n", me32);	  			//À©Õ¹µÄÕûÊıÀàĞÍ
+//	printf("me32 = %" PRId32 "\n", me32);	  			//æ‰©å±•çš„æ•´æ•°ç±»å‹
 //
 //	return 0;
 //}
@@ -2471,7 +2471,7 @@
 //#include <stdio.h>
 //int main(void) {
 //	int i = 2147483647;
-//	unsigned int j = 4294967295u;					//  ºóÃæ¼ÓÉÏu
+//	unsigned int j = 4294967295u;					//  åé¢åŠ ä¸Šu
 //
 //	printf("%d %d %d\n", i, i+1, i+2);
 //	printf("%u %u %u\n", j, j+1, j+2);
@@ -2495,7 +2495,7 @@
 //}
 
 
-//	1Î»  8×Ö½Ú  ×Ö
+//	1ä½  8å­—èŠ‚  å­—
 
 /* platinum.c  -- your weight in platinum */
 //#include <stdio.h>
@@ -2598,8 +2598,8 @@
 //	return 0;
 //}
 
-//																				/*  ch02  cÓïÑÔ¸ÅÊö */
-//			c¹Ø¼ü×Ö
+//																				/*  ch02  cè¯­è¨€æ¦‚è¿° */
+//			cå…³é”®å­—
 //			auto  		extern		short		while
 //			break		float		signed		_Alignas
 //			case		for			sizeof		_Alognof
@@ -2675,10 +2675,10 @@
 
 
 // first.c
-// 			cÓïÑÔ6ÖÖÓï¾ä£¬±êºÅÓï¾ä£¬¸´ºÏÓï¾ä£¬±í´ïÊ½Óï¾ä£¬Ñ¡ÔñÓï¾ä£¬µü´úÓï¾ä£¬Ìø×ªÓï¾ä
+// 			cè¯­è¨€6ç§è¯­å¥ï¼Œæ ‡å·è¯­å¥ï¼Œå¤åˆè¯­å¥ï¼Œè¡¨è¾¾å¼è¯­å¥ï¼Œé€‰æ‹©è¯­å¥ï¼Œè¿­ä»£è¯­å¥ï¼Œè·³è½¬è¯­å¥
 //#include <stdio.h>
 //int main(void) {              /* a simple program             */
-//	/*¹Ø¼ü×Ö   ±êÊ¶·û*/
+//	/*å…³é”®å­—   æ ‡è¯†ç¬¦*/
 //	int 		num;                  /* define a variable called num */
 //	num = 1;                  /* assign a value to num        */
 //
@@ -2686,17 +2686,17 @@
 //	printf("computer.\n");
 //	printf("My favorite number is %d because it is first.\n",num);
 //
-//	return 0;			//ÊôÓÚÌø×ªÓï¾ä
+//	return 0;			//å±äºè·³è½¬è¯­å¥
 //}
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//¿ÉÒÆÖ²ĞÔ£¬Ô´´úÂëÎŞĞèĞŞ¸Ä
-//Ô´´úÂë£¬Ä¿±ê´úÂë£¬¿ÉÖ´ĞĞ´úÂë
-//±àÒëÆ÷°ÑÔ´´úÂë·­ÒëÎªÄ¿±ê´úÂë
-//Á´½ÓÆ÷°ÑÄ¿±ê´úÂë£¬¿â´úÂëºÍÆô¶¯´úÂëºÏ³É¿ÉÖ´ĞĞ´úÂë
+//å¯ç§»æ¤æ€§ï¼Œæºä»£ç æ— éœ€ä¿®æ”¹
+//æºä»£ç ï¼Œç›®æ ‡ä»£ç ï¼Œå¯æ‰§è¡Œä»£ç 
+//ç¼–è¯‘å™¨æŠŠæºä»£ç ç¿»è¯‘ä¸ºç›®æ ‡ä»£ç 
+//é“¾æ¥å™¨æŠŠç›®æ ‡ä»£ç ï¼Œåº“ä»£ç å’Œå¯åŠ¨ä»£ç åˆæˆå¯æ‰§è¡Œä»£ç 
 
-//																				/*  ch01 ³õÊ¶cÓïÑÔ  */
+//																				/*  ch01 åˆè¯†cè¯­è¨€  */
 //#include <stdio.h>
 //int main(void) {
 //	int dogs;
